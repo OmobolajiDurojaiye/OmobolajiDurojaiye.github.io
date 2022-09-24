@@ -1,0 +1,350 @@
+/*Tablet layout*/
+@media only screen and (min-width: 768px) and (max-width: 1222px) {
+    /*Nav links*/
+    header ul li a {
+        position: relative;
+        padding: 0 40px 0 0;
+    }
+
+    /*Side social media icon*/
+    .sideLinks {
+        visibility: hidden;
+    }
+
+    /*Whatsapp*/
+    .whatsapp {
+        visibility: hidden;
+    }
+
+
+    /*Whole content container*/
+    .main {
+        width: 70%;
+        left: 15%;
+        background-image: url(./Images/content-head.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+    }
+
+    /*Individual cakes container style*/
+    #products #category1 .contents .cake {
+        height: 60vh;
+    }
+
+    /*Individual cakes container style*/
+    #products #category2 .contents .cake {
+        height: 60vh;
+    }
+
+    /*Individual cakes container style*/
+    #products #category3 .contents .cake {
+        height: 60vh;
+    }
+
+    .footer .left-side .social-media .social-icons .icon {
+        margin: 20px 10% 0 5%;
+    }
+
+}
+
+/* Mobile Layout*/
+@media only screen and (max-width: 767px) {
+    
+    /*Header container*/
+    header {
+        width: 90%;
+        height: 10vh;
+        position: fixed;
+        /*top: 90vh;*/
+        left: 5%;
+        overflow: scroll;
+    }
+
+    /*Logo style*/
+    header a img {
+        visibility: hidden;
+    }
+
+    /*Nav links container*/
+    header ul li {
+        position: relative;
+        left: 10%;
+    }
+
+    /*Products*/
+    header ul li a:first-child {
+        margin-right: 25px;
+    }
+
+    /*Nav links*/
+    header ul li a {
+        top: 20px;
+        position: relative;
+        padding: 0;
+        font-size: 15px;
+    }
+
+    /*Side social media icon*/
+    .sideLinks {
+        visibility: hidden;
+    }
+
+    /*Whatsapp*/
+    .whatsapp {
+        visibility: hidden;
+    }
+
+    /*Whole content container*/
+    .main {
+        width: 100%;
+        left: 0;
+        background-image: url(./Images/content-head.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        top: 0;
+    }
+
+    /*Types of cake container*/
+    .main .typesOfCakes {
+        display: block;
+    }
+
+    /*Traditional cake*/
+    .main .traditionalCake {
+        height: 30vh;
+        width: 80%;
+        margin: 0 10% 20px 10%;
+    }
+
+    
+    /*Cup cake*/
+    .main .cupCake {
+        height: 30vh;
+        width: 80%;
+        margin: 0 10% 20px 10%;
+    }
+
+    /*Birthday cake*/
+    .main .birthdayCake {
+        height: 30vh;
+        width: 80%;
+        margin: 0 10% 20px 10%;
+    }
+
+    /*Services*/
+    .main .services {
+        margin-top: 10%;
+        width: 100%; 
+    }
+
+    .main .services .cakeGallery {
+        display: block;
+    }
+
+    .main .services .cakeGallery .cakes {
+        height: 60vh;
+        width: 50%;
+        margin: 0 25% 20px 25%;
+    }   
+
+    /*Smaller cakes gallery*/
+    .main .services .smallerGallery {
+        height: 90vh;
+        display: block;
+        margin-bottom: 0;
+    }
+
+    /*Individual cake cover style*/
+    .main .services .smallerGallery .cakes {
+        height: 25vh;
+        width: 50%;
+        margin: 0 25% 20px 25%;
+    }
+
+    /*Products division*/
+    #products #category1 {
+        height: max-content;
+        width: 100%;
+        position: relative;
+        top: 0;
+    }
+
+    /*Category1*/
+    /*Individual cakes container style*/
+    #products #category1 .contents .cake {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+
+    /*Category1 cakes container*/
+    #products #category1 .contents {
+        display: block;
+    }
+
+    /*Individual cakes container style*/
+    #products #category1 .contents .cake {
+        height: 60vh;
+        width: 50%;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
+    /*Category2*/
+    /*Individual cakes container style*/
+    #products #category2 .contents .cake {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+
+    /*Category2 cakes container*/
+    #products #category2 .contents {
+        display: block;
+    }
+
+    /*Individual cakes container style*/
+    #products #category2 .contents .cake {
+        height: 60vh;
+        width: 50%;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
+    /*Category3*/
+    /*Individual cakes container style*/
+    #products #category3 .contents .cake {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+
+    /*Category3 cakes container*/
+    #products #category3 .contents {
+        display: block;
+    }
+
+    /*Individual cakes container style*/
+    #products #category3 .contents .cake {
+        height: 60vh;
+        width: 50%;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
+    /*Contact head*/
+    #contact .contactHead {
+        height: 25vh;
+        width: 60%;
+        margin: 30px 20% 20px 20%;
+    }
+
+    /*Name*/
+    #contact .contactHead .logo h1 {
+        text-align: center;
+        font-size: 12px;
+        padding: 40px 0;
+        overflow: hidden;
+    }
+
+    /*Description text style*/
+    #contact .contactHead .description p {
+        color: pink;
+        font-family: ink free;
+        padding: 1px 5px;
+    }
+
+    /*Facebook*/
+    #contact .facebook {
+        width: 60%;
+        margin: 10px 20% 20px 20%;
+        height: 12vh;
+    }
+
+    #contact .facebook .logo {
+        height: 10vh;
+        width: 10%;
+        background-color: white;
+    }
+
+    #contact .facebook .logo svg {
+        color: #1e3f83;
+        margin: 25px 10px;
+    }
+
+    /*Instagram*/
+    #contact .instagram {
+        width: 60%;
+        margin: 10px 20% 20px 20%;
+        height: 12vh;
+    }
+
+    #contact .instagram .logo {
+        height: 10vh;
+        width: 10%;
+        background-color: white;
+    }
+
+    #contact .instagram .logo svg {
+        color: #d43b54;
+        margin: 25px 10px;
+    }
+
+    /*Twitter*/
+    #contact .twitter {
+        width: 60%;
+        margin: 10px 20% 20px 20%;
+        height: 12vh;
+    }
+
+    #contact .twitter .logo {
+        height: 10vh;
+        width: 10%;
+        background-color: white;
+    }
+
+    #contact .twitter .logo svg {
+        color: #1DA1F2;
+        margin: 25px 10px;
+    }
+
+    /*Gmail*/
+    #contact .gmail {
+        width: 60%;
+        margin: 10px 20% 20px 20%;
+        height: 12vh;
+    }
+
+    #contact .gmail .logo {
+        height: 10vh;
+        width: 10%;
+        background-color: white;
+    }
+
+    #contact .gmail .logo svg {
+        color: #ff0000;
+        margin: 25px 10px;
+    }
+
+    /*Footer*/
+    .footer {
+        height: max-content;
+    }
+
+    /*Sides*/
+    .footer .sides {
+        display: block;
+    }
+
+    /*Left side container*/
+    .footer .left-side {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .footer .left-side .social-media .social-icons .icon {
+        margin: 20px 10% 0 5%;
+    }
+
+   /*Right side*/
+    .footer .right-side {
+        height: 70vh;
+        width: 100%;
+    }
+}

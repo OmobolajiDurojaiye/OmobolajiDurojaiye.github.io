@@ -1,0 +1,1221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+/*Header container*/
+header {
+    height: 15vh;
+    width: 50%;
+    display: flex;
+    position: fixed;
+    top: 10px;
+    left: 25%;
+    border-top: 2px solid #f5536e;
+    border-radius: 15px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background: white;
+    z-index: 9999; 
+    overflow: hidden;
+}
+
+/*Logo container*/
+header a {
+    text-decoration: none;
+}
+
+/*Logo style*/
+header a img {
+    position: relative;
+    width: 100px;
+    height: inherit;
+}
+
+/*Nav links container*/
+header ul li {
+   display: inline-block;
+}
+
+/*Nav links*/
+header ul li a {
+    color: pink;
+    position: relative;
+    top: 35px;
+    padding: 0 100px;
+    transition: all .5s ease;
+}
+
+header ul li a:hover {
+    color: #f5536e;
+}
+
+/*Side social media icon*/
+.sideLinks {
+    display: block;
+    height: 30vh;
+    width: 5%; 
+    position: fixed;
+    top: 200px;
+    left: 30px;
+}
+
+/*Facebook*/
+.sideLinks .facebook {
+    height: 7vh;
+    width: 80%;
+    margin: 2vh 10% 2vh 10%;
+    padding: 13px;
+    justify-content: center;
+    border-radius: 9px;
+    display: flex;
+    transition: all 0.3s ease;
+}
+
+.sideLinks .facebook a {
+    color: #1e3f83;
+}
+
+.sideLinks .facebook:hover {
+    background-color: #91b6ff;
+    color: #1e3f83;
+}
+
+/*Instagram*/
+.sideLinks .instagram {
+    height: 7vh;
+    width: 80%;
+    margin: 2vh 10% 2vh 10%;
+    padding: 13px;
+    justify-content: center;
+    border-radius: 9px;
+    display: flex;
+    transition: all 0.3s ease;
+}
+
+.sideLinks .instagram a {
+    color: #d43b54;
+}
+
+.sideLinks .instagram:hover {
+    background-color: #ee8395;
+    color: #d43b54;
+}
+
+/*Twitter*/
+.sideLinks .twitter {
+    height: 7vh;
+    width: 80%;
+    margin: 2vh 10% 2vh 10%;
+    padding: 13px;
+    justify-content: center;
+    border-radius: 9px;
+    display: flex;
+    transition: all 0.3s ease;
+}
+
+.sideLinks .twitter a {
+    color: #1DA1F2;
+}
+
+.sideLinks .twitter:hover {
+    background-color: #78c9fc;
+    color: #1DA1F2;
+}
+
+/*Whatsapp*/
+.whatsapp {
+    height: max-content;
+    width: 5%; 
+    position: fixed;
+    top: 85%;
+    right: 40px;
+}
+
+.whatsapp a {
+    color: #fff;
+    text-decoration: none;
+    background: #128C7E;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+/*Whole content container*/
+.main {
+    height: max-content;
+    width: 60%;
+    position: relative;
+    top: 150px;
+    left: 20%;
+}
+
+.main .empty {
+    height: 55vh;
+    width: 100%;
+    position: relative;
+    bottom: 15px;
+    background-image: url(./Images/content-head.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+/*Types of cake container*/
+.main .typesOfCakes {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*all h1s and ps in the typesofcake container*/
+.main .typesOfCakes h1 {
+    text-align: center;
+    font-family: forte;
+}
+
+.main .typesOfCakes p {
+    font-family: ink free !important;
+}
+
+/*Traditional cake*/
+.main .traditionalCake {
+    height: 40vh;
+    width: 30%;
+    border-radius: 15px;
+    margin-right: 2.5px;
+    padding: 10px;
+    background-color: rgb(165, 164, 164);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.main .traditionalCake h1 {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.main .traditionalCake p {
+    font-family: cursive;
+    text-align: center;
+    color: rgb(196, 195, 195);
+}
+
+.main .traditionalCake a {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(97, 90, 90);
+}
+
+/*Cup cake*/
+.main .cupCake {
+    height: 40vh;
+    width: 35%;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: sandybrown;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.main .cupCake h1 {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.main .cupCake span {
+    color: rgb(173, 85, 7);
+    font-family: forte;
+}
+
+.main .cupCake p {
+    font-family: cursive;
+    text-align: center;
+    color: rgb(194, 129, 72);
+}
+
+.main .cupCake a {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(173, 85, 7);
+}
+
+/*Birthday cake*/
+.main .birthdayCake {
+    height: 40vh;
+    width: 30%;
+    border-radius: 15px;
+    margin-left: 2.5px;
+    padding: 10px;
+    background-color: pink;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.main .birthdayCake h1 {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.main .birthdayCake p {
+    font-family: cursive;
+    text-align: center;
+    color: rgb(219, 157, 167);
+}
+
+.main .birthdayCake a {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(153, 24, 46);
+}
+
+/*Services*/
+.main .services {
+    height: max-content;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: whitesmoke;
+}
+
+.main .services h1 {
+    text-align: center;
+    font-family: forte;
+    color: rgb(97, 90, 90);
+    /*position: relative;
+    top: 20px;*/
+}
+
+.main .services span {
+    color: pink;
+    font-family: forte;
+}
+
+/*Cake description container style*/
+.main .services .cakeGallery {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+/*Individual Cakes styles*/
+.main .services .cakeGallery .cakes {
+    height: 50vh;
+    width: 25%;
+    /*box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background: white;
+    z-index: 9999; */
+    position: relative;
+    top: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}    
+
+.main .services .cakeGallery .cakes:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/*Description text style*/
+.main .services .cakeGallery .cakes .description h2 {
+    text-align: center;
+    font-family: forte;
+    color: rgb(29, 28, 28);
+}
+
+/*toplink*/
+.main .services .cakeGallery .cakes .divLink {
+    height: 20vh;
+    width: 100%;
+}
+
+.main .services .cakeGallery .cakes .divLink a {
+    float: right;
+    background: pink;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(80, 79, 79);
+    transition: all 0.3s ease;
+}
+
+.content #services .cakeGallery .cakes .divLink a:hover {
+    background-color: rgb(253, 212, 219);
+    color: rgb(61, 61, 61);
+}
+
+/*Cake 1 birthday*/
+.main .services .cakeGallery .cake1 {
+    background-image: url(./Images/Pic\ \ \(18\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Cake 2 traditional*/
+.main .services .cakeGallery .cake2 {
+    background-image: url(./Images/Pic\ \ \(15\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Cake 3 cupcake*/
+.main .services .cakeGallery .cake3 {
+    background-image: url(./Images/cc1\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Smaller cakes gallery*/
+.main .services .smallerGallery {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+/*Individual cake cover style*/
+.main .services .smallerGallery .cakes {
+    height: 25vh;
+    width: 25%;
+    /*box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background: white;
+    z-index: 9999; */
+    position: relative;
+    top: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.main .services .smallerGallery .cakes:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/*Top link*/
+.main .servicess .smallerGallery .cakes .divLink {
+    height: 10vh;
+    width: 100%;
+}
+
+.main .services .smallerGallery .cakes .divLink a {
+    float: right;
+    background: pink;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(80, 79, 79);
+    transition: all 0.3s ease;
+}
+
+.main .services .smallerGallery .cakes .divLink a:hover {
+    background-color: rgb(253, 212, 219);
+    color: rgb(29, 28, 28);
+}
+
+/*Description text*/
+.main .services .smallerGallery .cakes .description h2 {
+    padding: 10px;
+    text-align: center;
+    font-family: forte;
+    color: rgb(255, 123, 145);
+}
+
+/*Cake 1 Chocolate cake */
+.main .services .smallerGallery .cake1 {
+    background-image: url(./Images/Cake\ loaf\ \(1\).JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Cake 2 Red velvet*/
+.main .services .smallerGallery .cake2 {
+    background-image: url(./Images/Cake\ loaf\ \(2\).JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Cake 3 Triple delight*/
+.main .services .smallerGallery .cake3 {
+    background-image: url(./Images/Slizeno.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Products division*/
+#products {
+    height: max-content;
+    width: 100%;
+    margin-bottom: 5%;
+    background-color: whitesmoke;
+}
+
+/*Category1*/
+#products #category1 {
+    height: max-content;
+    width: 100%;
+}
+
+#products #category1 .head {
+    height: 40vh;
+    width: 100%;
+    background-image: url(./Images/Pic\ \ \(14\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Description text style*/
+#products #category1 .head p {
+    float: right;
+    padding: 5px 5px;
+    background: pink;
+    margin: 20px 20px 0 0;
+    border-radius: 5px;
+}
+
+/*Category1 cakes container*/
+#products #category1 .contents {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+/*Individual cakes container style*/
+#products #category1 .contents .cake {
+    height: 55vh;
+    width: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-bottom: 2px solid pink;
+    border-radius: 0 0 10px 10px;
+    transition: all 0.3s ease;
+}
+
+#products #category1 .contents .cake:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/*Heading - cake name*/
+#products #category1 .contents .cake .description h3 {
+    color: pink;
+    text-align: center;
+    padding-top: 10px;
+    font-family: forte;
+}
+
+/*Details*/
+#products #category1 .contents .cake .description p {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    line-height: 1.5;
+    font-family: ink free;
+}
+
+/*Book*/
+#products #category1 .contents .cake .description a {
+    color: black;
+    float: right;
+    margin: 5px 20px 10px 0;
+    background: pink;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#products #category1 .contents .cake .description a:hover {
+    background-color: rgb(253, 212, 219);
+}
+
+/*Category1 Cake1*/
+#products #category1 .contents .cake .pic1 {
+    height: 20vh;
+    width: 100%;
+    background-image: url(./Images/Pic\ \ \(11\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Category1 Cake2*/
+#products #category1 .contents .cake .pic2 {
+    height: 20vh;
+    width: 100%;
+    background-image: url(./Images/Pic\ \ \(7\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Category1 Cake3*/
+#products #category1 .contents .cake .pic3 {
+    height: 20vh;
+    width: 100%;
+    background-image: url(./Images/Pic\ \ \(17\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Category2*/
+#products #category2 {
+    height: max-content;
+    width: 100%;
+}
+
+#products #category2 .head {
+    height: 40vh;
+    width: 100%;
+    background-image: url(./Images/cc1\ \(5\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Description text style*/
+#products #category2 .head p {
+    float: right;
+    padding: 5px 5px;
+    background: pink;
+    margin: 20px 20px 0 0;
+    border-radius: 5px;
+}
+
+/*Category2 cakes container*/
+#products #category2 .contents {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+/*Individual cakes container style*/
+#products #category2 .contents .cake {
+    height: 55vh;
+    width: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-bottom: 2px solid pink;
+    border-radius: 0 0 10px 10px;
+    transition: all 0.3s ease;
+}
+
+#products #category2 .contents .cake:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/*Heading - cake name*/
+#products #category2 .contents .cake .description h3 {
+    color: pink;
+    text-align: center;
+    padding-top: 10px;
+    font-family: forte;
+}
+
+/*Details*/
+#products #category2 .contents .cake .description p {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    line-height: 1.5;
+    font-family: ink free;
+}
+
+/*Book*/
+#products #category2 .contents .cake .description a {
+    color: black;
+    float: right;
+    margin: 5px 20px 10px 0;
+    background: pink;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#products #category2 .contents .cake .description a:hover {
+    background-color: rgb(253, 212, 219);
+}
+
+/*Category2 Cake1*/
+#products #category2 .contents .cake .pic1 {
+    height: 20vh;
+    width: 100%;
+    background-image: url(./Images/cc1\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Category2 Cake2*/
+#products #category2 .contents .cake .pic2 {
+    height: 20vh;
+    width: 100%;
+    background-image: url(./Images/cc1\ \(3\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Category2 Cake3*/
+#products #category2 .contents .cake .pic3 {
+    height: 20vh;
+    width: 100%;
+    background-image: url(./Images/cc1\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Category3*/
+#products #category3 {
+    height: max-content;
+    width: 100%;
+}
+
+#products #category3 .head {
+    height: 40vh;
+    width: 100%;
+    background-image: url(./Images/Pic\ \ \(10\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Description text style*/
+#products #category3 .head p {
+    float: right;
+    padding: 5px 5px;
+    background: pink;
+    margin: 20px 20px 0 0;
+    border-radius: 5px;
+}
+
+/*Category3 cakes container*/
+#products #category3 .contents {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+/*Individual cakes container style*/
+#products #category3 .contents .cake {
+    height: 55vh;
+    width: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-bottom: 2px solid pink;
+    border-radius: 0 0 10px 10px;
+    transition: all 0.3s ease;
+}
+
+#products #category3 .contents .cake:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/*Heading - cake name*/
+#products #category3 .contents .cake .description h3 {
+    color: pink;
+    text-align: center;
+    padding-top: 10px;
+    font-family: forte;
+}
+
+/*Details*/
+#products #category3 .contents .cake .description p {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    line-height: 1.5;
+    font-family: ink free;
+}
+
+/*Book*/
+#products #category3 .contents .cake .description a {
+    color: black;
+    float: right;
+    margin: 5px 20px 10px 0;
+    background: pink;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#products #category3 .contents .cake .description a:hover {
+    background-color: rgb(253, 212, 219);
+}
+
+/*Category3 Cake1*/
+#products #category3 .contents .cake .pic1 {
+    height: 20vh;
+    width: 100%;
+    background-image: url(./Images/Cake\ loaf\ \(1\).JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Category3 Cake2*/
+#products #category3 .contents .cake .pic2 {
+    height: 20vh;
+    width: 100%;
+    background-image: url(./Images/Cake\ loaf\ \(2\).JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Category3 Cake3*/
+#products #category3 .contents .cake .pic3 {
+    height: 20vh;
+    width: 100%;
+    background-image: url(./Images/Slizeno.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+/*tags
+#products .tags {
+    height: 6vh;
+    width: 100%;
+    margin: 4% 0;
+    background-color: whitesmoke;
+    display: flex;
+    border-radius: 5px;
+}
+
+tag text style
+.tags .name {
+    height: inherit;
+    width: 40%;
+}
+
+/*Other styles
+.tags .name h2 {
+    padding: 3px 0 0 20px;
+    font-family: forte;
+    color: pink;
+}
+
+.tags .tagged {
+    height: inherit;
+    width: 60%;
+}
+
+.tags .tagged ul {
+    display: flex;
+    padding: 10px 0 0 0;
+}
+
+.tags .tagged ul li {
+    list-style: none; 
+}
+
+.tags .tagged ul li a {
+    text-decoration: none;
+    margin-left: 30px;
+    border: 1px solid grey;
+    padding: 4px;
+    border-radius: 5px;
+    color: gray;
+    transition: all .3s ease;
+}
+
+.tags .tagged ul li a:hover {
+    background-color: gray;
+    color: pink;
+}*/
+
+/*Contact container*/
+#contact {
+    height: max-content;
+    width: 100%;
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 5%;
+}
+
+/*contact head*/
+#contact .contactHead {
+    height: 25vh;
+    width: 50%;
+    position: relative;
+    margin: 30px 25% 20px 25%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#contact .contactHead .logo {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid whitesmoke;
+}
+
+/*Contact head Logo style*/
+#contact .contactHead .logo .img img {
+    height: 20vh;
+    width: 100%;
+}
+
+/*Name*/
+#contact .contactHead .logo h1 {
+    font-family: forte;
+    text-align: center;
+    padding: 20px 0 0 40px;
+}
+
+/*Description text style*/
+#contact .contactHead .description p {
+    color: pink;
+    font-family: ink free;
+    padding: 5px 20px;
+}
+
+/*Facebook logo*/
+#contact .facebook {
+    display: flex;
+    height: 10vh;
+    width: 50%;
+    position: relative;
+    margin: 10px 25% 20px 25%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#contact .facebook .logo {
+    height: 10vh;
+    width: 20%;
+    background-color: #91b6ff;
+    border-radius: 10px 0 0 10px;
+}
+
+#contact .facebook .logo svg {
+    color: #1e3f83;
+    margin: 25px 30px;
+}
+
+#contact .facebook p {
+    width: 85%;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1e3f83;
+}
+
+#contact .facebook a {
+    color: pink;
+    font-size: 15px;
+    font-family: serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Twitter logo*/
+#contact .twitter {
+    display: flex;
+    height: 10vh;
+    width: 50%;
+    position: relative;
+    margin: 10px 25% 20px 25%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#contact .twitter .logo {
+    height: 10vh;
+    width: 20%;
+    background-color: #78c9fc;
+    border-radius: 10px 0 0 10px;
+}
+
+#contact .twitter .logo svg {
+    color: #1DA1F2;
+    margin: 25px 30px;
+}
+
+#contact .twitter p {
+    width: 85%;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1DA1F2;;
+}
+
+#contact .twitter a {
+    color: pink;
+    font-size: 15px;
+    font-family: serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Instagram logo*/
+#contact .instagram {
+    display: flex;
+    height: 10vh;
+    width: 50%;
+    position: relative;
+    margin: 10px 25% 20px 25%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#contact .instagram .logo {
+    height: 10vh;
+    width: 20%;
+    background-color: #ee8395;;
+    border-radius: 10px 0 0 10px;
+}
+
+#contact .instagram .logo svg {
+    color: #d43b54;
+    margin: 25px 30px;
+}
+
+#contact .instagram p {
+    width: 85%;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #d43b54;
+}
+
+#contact .instagram a {
+    color: pink;
+    font-size: 15px;
+    font-family: serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*G-mail logo*/
+#contact .gmail {
+    display: flex;
+    height: 10vh;
+    width: 50%;
+    position: relative;
+    margin: 10px 25% 20px 25%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#contact .gmail .logo {
+    height: 10vh;
+    width: 20%;
+    background-color: #fc7c7c;
+    border-radius: 10px 0 0 10px;
+}
+
+#contact .gmail .logo svg {
+    color: #ff0000;
+    margin: 25px 30px;
+}
+
+#contact .gmail p {
+    width: 85%;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+#contact .gmail a {
+    color: pink;
+    font-size: 15px;
+    font-family: serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Footer*/
+.footer {
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/*Sides*/
+.footer .sides {
+    display: flex;
+}
+
+/*Left side container*/
+.footer .left-side {
+    height: 70vh;
+    width: 50%;
+    display: block;
+}
+
+.footer .left-side .topsy {
+    height: 40vh;
+    width: 80%;
+    margin: 2.5vh 10% 2.5vh 10%;
+    display: block;
+    background: white;
+    border-radius: 5px;
+}
+
+/*topsy style*/
+.footer .left-side .Image-description {
+    display: flex;
+}
+
+.footer .left-side .topsy .Image-description img {
+    height: 25vh;
+    width: 50%;
+    margin: 3%;
+}
+
+.footer .left-side .topsy .Image-description h2 {
+    font-family: forte;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.footer .left-side .topsy p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: ink free;
+}
+
+/*Social media links*/
+.footer .left-side .social-media {
+    height: 20vh;
+    width: 80%;
+    margin: 2.5vh 10% 2.5vh 10%;
+    border-radius: 5px;
+    background: white;
+    padding: 10px 0 0 0;
+}
+
+.footer .left-side .social-media h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer .left-side .social-media .social-icons {
+    display: flex;
+}
+
+.footer .left-side .social-media .social-icons .icon {
+    margin: 20px 13% 0 8%;
+}
+
+.footer .left-side .social-media .social-icons .facebook a {
+    padding: 15px;
+    color: #1e3f83;
+    background-color: #91b6ff;
+    border-radius: 5px;
+    
+}
+
+.footer .left-side .social-media .social-icons .instagram a {
+    padding: 15px;
+    background-color: #ee8395;
+    color: #d43b54;
+    border-radius: 5px;
+}
+
+.footer .left-side .social-media .social-icons .twitter a {
+    padding: 15px;
+    background-color: #78c9fc;
+    color: #1DA1F2;
+    border-radius: 5px;
+}
+
+/*Right side*/
+.footer .right-side {
+    height: 70vh;
+    width: 50%;
+}
+
+.footer .right-side .contact {
+    height: 30vh;
+    width: 80%;
+    margin: 2.5vh 10% 2.5vh 10%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.footer .right-side .contact p {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.footer .right-side .links {
+    height: 30vh;
+    width: 80%;
+    margin: 2.5vh 10% 2.5vh 10%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.footer .right-side .links h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer .right-side .links a {
+    display: block;
+    padding: 20px 0 0 20px;
+    text-decoration: none;
+    color: pink;
+    transition: all 0.3s ease;
+}
+
+.footer .right-side .links a:hover {
+    color: black;
+}
+
+/*Bottom*/
+.footer .bottom {
+    height: 6vh;
+    width: 60%;
+    margin: 10px 20% 10px 20%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.footer .bottom p {
+    text-align: center;
+    padding-top: 10px;
+    font-family: ink free;
+    word-spacing: 2px;
+}
+
+.footer .bottom a {
+    color: pink;
+    text-decoration: none;
+}
